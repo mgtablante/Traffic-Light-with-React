@@ -32,7 +32,7 @@ export function Home() {
 			<div className="container">
 				<span
 					className={`lightred ${btnClass}`}/>
-                    onClick={handleClick}
+                    onClick={handleClick}git 
                 <br />
 				<span
 					className={`lightyellow ${btnClassYellow}`}/>
