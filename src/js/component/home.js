@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
+import { useState, useEffect } from "react";
 
 //create your first component
 export function Home() {
