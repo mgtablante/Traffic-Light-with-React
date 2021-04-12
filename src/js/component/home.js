@@ -22,20 +22,26 @@ export function Home() {
 		<div>
 			<div className="traffic"></div>;<h1>Traffic Light with React</h1>
 			<div className="container">
-				<span className={`lightred ${btnClass}`} /> onClick=
-				{() => {
-					handleClick();
-				}}
+				<button
+					className={`lightred ${btnClass}`}
+					onClick={() => {
+						handleClick();
+					}}
+				/>
 				<br />
-				<span className={`lightyellow ${btnClassYellow}`} /> onClick=
-				{() => {
-					handleClickYellow();
-				}}
+				<button
+					className={`lightyellow ${btnClassYellow}`}
+					onClick={() => {
+						handleClickYellow();
+					}}
+				/>
 				<br />
-				<span className={`lightgreen ${btnClassGreen}`} /> onClick=
-				{() => {
-					handleClickGreen();
-				}}
+				<button
+					className={`lightgreen ${btnClassGreen}`}
+					onClick={() => {
+						handleClickGreen();
+					}}
+				/>
 			</div>
 		</div>
 	);
