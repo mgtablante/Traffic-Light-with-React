@@ -19,8 +19,8 @@ export function Home() {
 		setBtnClass(""), setBtnClassYellow(""), setBtnClassGreen("selected");
 	};
 	return (
-		<div>
-			<div className="traffic"></div>;<h1>Traffic Light with React</h1>
+		<div className="traffic">
+			<h1>Traffic light with React</h1>
 			<div className="container">
 				<button
 					className={`lightred ${btnClass}`}
